@@ -7,7 +7,7 @@ variable "cloud_provider" {
 variable "region" {
     description = "Cloud Provider Region Name"
     type = string
-    default = "ap-southeast-1"
+    default = "us-east-1"
 }
 
 variable "cluster_cider" {
